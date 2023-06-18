@@ -8,10 +8,19 @@
 </head>
 <link rel="stylesheet" href="ans.css">  
 <body>
+
     <div>
         <a href="https://youtu.be/dQw4w9WgXcQ"><h1> I will find you </h1></a>
         <h2> Also click the "I will find you" It will bring you to a page that you will never give up not looking at it again </h2>
-        <input type="button" class="button_css" value="secret">
+        <button onclick="loadGif()">Secret</button>
+
+<script>
+function loadGif() {
+  var gif = document.createElement("img");
+  gif.src = "https://media.tenor.com/ugn7d0E_23cAAAAC/loona-hyunjin.gif";
+  document.body.appendChild(gif);
+}
+    </script>
     </div>
 </body>
 </html>
